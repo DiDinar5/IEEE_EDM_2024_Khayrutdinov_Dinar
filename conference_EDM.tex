@@ -160,20 +160,9 @@ Along with the advantages, there are disadvantages such as:
 
 Decentralized data storage is a new technology that has not yet been widely adopted, but may become an important element of Web3. Currently, users are looking for more convenient, efficient and secure ways to store information, so platforms with a decentralized structure, such as IPFS, are becoming more and more popular. Due to constant information leaks, rising storage costs and censorship in the traditional space, more and more people are thinking about using decentralized solutions. They can solve some of the problems of centralized analogues, but they also have their drawbacks. Currently, centralized data storage remains a popular choice for many people and will continue to occupy a significant market share, even with the growing demand for decentralized storage.
 
-The complexity of the blockchain topic is due to complex algorithms, specific terms and other technical elements. There is a number of useful literature for those who are just starting their journey in the study of decentralized technologies, with the help of which the essence of the technology and the basic principles of the blockchain become clear \cite{Kube}. In this regard, many organizations, Government Agencies and just ordinary users bypass this technology. For a more detailed immersion into the world of decentralization, it is proposed to introduce a discipline in educational institutions that will cover blockchain technologies from different angles and touch on more complex topics such as cryptography, blockchain platforms and decentralization in general [5]. Thanks to the training centers, there will be specialists who, in turn, will fill in the gaps of ignorance in society.
+\subsection{Mass education and implementation of decentralized technologies in organizations and government agencies }
 
-Many people mistakenly compare the usual DBMS and IPFS. They do perform similar functions, the most important of which is data storage, but they are designed for different purposes [6]. As already mentioned, IPFS is a distributed file system, which means there is no central management. The DBMS, in turn, is designed for processing and managing structured data, usually in JSON format. Most DBMS are presented in the form of relational databases that store data in an organized table with columns and rows [7]. There are also problems with fault tolerance, if the database server broke down for a while, then all transactions that were transmitted at that time may not be saved, fortunately, backup mechanisms are now provided in case of threats to the server, but this does not negate the fact that the DBMS is subject to various failures. 
-
-It happens that direct use of IPFS can make some actions difficult for a user who does not have confident knowledge of distributed networks, which can lead to confusion, as a result of which adverse consequences may occur. To do this, decentralized applications (DApp) were created, with their help, the user does not need to know how and where his data is stored, since a convenient and intuitive interface provides easy use of this platform [8]. In simple terms, a decentralized application serves as a shell between a human and a distributed file system. But in addition to the interface, DApp offers another stage of protection – it is identity verification through the blockchain [9]. The sequence of saving or viewing a file includes user identification, it is assumed that a hash key is stored in the blockchain, with which you can view the file stored in IPFS. The link in this chain is a smart contract. A smart contract is a code that automatically performs the actions prescribed inside the document [10]. A smart contract is valued for its immutability, transparency and reliability. An analogy can be given with a robot that performs its task according to its internal prescribed scenario. A popular programming language for writing smart contracts is Solidity, which runs on the Ethereum blockchain [11]. To fully understand the sequence from verification in a decentralized application to obtaining the desired file, it is proposed to consider in Figure \ref{Sequence}.
-
-\begin{figure}
-\centerline{\includegraphics[scale=0.67]{fig2.png}}
-\caption{The sequence of operation of decentralized technologies.}
-\label{Sequence}
-\end{figure}
-
-The first thing a user needs to do is enter their Ethereum account and private key into a decentralized application. Next, with the help of a smart contract, the user is identified on the blockchain side. Upon successful verification, the hash key is returned, which is used to search for the file in IPFS. The final step is to output the desired file to the application interface. 
-To implement this technology in a public Institution, it is proposed to follow the following steps [12]:
+The complexity of the blockchain topic is due to complex algorithms, specific terms and other technical elements. There is a number of useful literature for those who are just starting their journey in the study of decentralized technologies, with the help of which the essence of the technology and the basic principles of the blockchain become clear \cite{Kube}. In this regard, many organizations, Government Agencies and just ordinary users bypass this technology. For a more detailed immersion into the world of decentralization, it is proposed to introduce a discipline in educational institutions that will cover blockchain technologies from different angles and touch on more complex topics such as cryptography, blockchain platforms and decentralization in general \cite{Bashir}. Thanks to the training centers, there will be specialists who, in turn, will fill in the gaps of ignorance in society.Once an organization has decided on a suitable direction and technology, it can be a distributed repository of documents and files, a decentralized application for anonymous voting, or the creation of a private blockchain that will work within the organization and with the requirements of user identification. Despite the different branches of development, the technology implementation plan remains almost unchanged and is suitable for each direction. A brief overview of the introduction of technology into an organization or Government Agency is offered. To do this, follow these steps \cite{Talapina}:
 \begin{itemize}
     \item Assessment of needs and opportunities.
     \item Research and technology selection.
@@ -183,11 +172,27 @@ To implement this technology in a public Institution, it is proposed to follow t
     \item System support.
 \end{itemize}
 
+\subsection{Consideration of Dapp and its application}
+
+Many people mistakenly compare the usual DBMS and IPFS. They do perform similar functions, the most important of which is data storage, but they are designed for different purposes \cite{Ruan}. As already mentioned, IPFS is a distributed file system, which means there is no central management. The DBMS, in turn, is designed for processing and managing structured data, usually in JSON format. Most DBMS are presented in the form of relational databases that store data in an organized table with columns and rows \cite{Gillenson}. There are also problems with fault tolerance, if the database server broke down for a while, then all transactions that were transmitted at that time may not be saved, fortunately, backup mechanisms are now provided in case of threats to the server, but this does not negate the fact that the DBMS is subject to various failures. 
+
+It happens that direct use of IPFS can make some actions difficult for a user who does not have confident knowledge of distributed networks, which can lead to confusion, as a result of which adverse consequences may occur. To do this, decentralized applications (DApp) were created, with their help, the user does not need to know how and where his data is stored, since a convenient and intuitive interface provides easy use of this platform \cite{Infante}. In simple terms, a decentralized application serves as a shell between a human and a distributed file system. But in addition to the interface, DApp offers another stage of protection – it is identity verification through the blockchain \cite{Lin}. The sequence of saving or viewing a file includes user identification, it is assumed that a hash key is stored in the blockchain, with which you can view the file stored in IPFS. The link in this chain is a smart contract. A smart contract is a code that automatically performs the actions prescribed inside the document \cite{Frolov}. A smart contract is valued for its immutability, transparency and reliability. An analogy can be given with a robot that performs its task according to its internal prescribed scenario. A popular programming language for writing smart contracts is Solidity, which runs on the Ethereum blockchain \cite{Khan Nabeel}. To fully understand the sequence from verification in a decentralized application to obtaining the desired file, it is proposed to consider in Figure \ref{Sequence}.
+
+\begin{figure}
+\centerline{\includegraphics[scale=0.67]{fig2.png}}
+\caption{The sequence of operation of decentralized technologies.}
+\label{Sequence}
+\end{figure}
+
+The first thing a user needs to do is enter their Ethereum account and private key into a decentralized application. Next, with the help of a smart contract, the user is identified on the blockchain side. Upon successful verification, the hash key is returned, which is used to search for the file in IPFS. The final step is to output the desired file to the application interface. 
+
+
 
 \section{Experimental results}
-The implementation of a decentralized application that will store the received data in IPFS involves some steps and requires the use of certain tools and libraries. 
+The implementation of a decentralized application that will store the received data in IPFS involves some steps and requires the use of certain tools and libraries. As mentioned earlier, DApp is a user interface with intuitive controls. The task of the developer, architect and designer is to simplify the use of the application and hide all the complexities of the decentralized world from the user. An analogy can be given with conventional bank transfers, where all the logic of complex calculations is hidden, and on the screen the user sees only the necessary data and the amount to be transferred to another bank.
 
-First of all, you need to create a DApp server part that will be responsible for receiving, reading and transferring files. Let's use Node.js based on JavaScript [13]. In addition to the basic functionality, you will need to turn to special libraries for working with web3 and IPFS. One of the most popular are Web3.js and js-IPFS. Listing 1 shows one of the main functions that accepts the hash key of a file, invokes a smart contract and stores the transaction in the blockchain.
+\subsection{Creating a backend}
+First of all, you need to create a DApp server part that will be responsible for receiving, reading and transferring files. Let's use Node.js based on JavaScript \cite{Herron} . In addition to the basic functionality, you will need to turn to special libraries for working with web3 and IPFS. One of the most popular are Web3.js and js-IPFS. Listing 1 shows one of the main functions that accepts the hash key of a file, invokes a smart contract and stores the transaction in the blockchain.
 
 \lstset{
     language=JavaScript,
@@ -243,6 +248,7 @@ async function uploadToIPFS(filePath) {
 }
 \end{lstlisting}
 
+\subsection{Creating a smart contract}
 After the server part is created, it is proposed to create a smart contract that will link the server written earlier and the blockchain. It is designed to manage and store user hashes. As shown in listing 2, a so-called dictionary is created, which stores data on the principle of key and value. The key is the user's address, and the hash value of the file that is associated with a specific user. In addition to the dictionary, two functions are created, one of which is responsible for adding the transmitted hash file to the user's hash array, and the other provides saved hashes of files associated with the specified user address.
 
 \lstset{
@@ -279,7 +285,9 @@ contract FileStorage {
 }
 \end{lstlisting}
 
-The React framework is responsible for the interface [14]. This is one of the most popular libraries for the JavaScript programming language, it creates dynamic interfaces, besides it does not require much knowledge in development. The task of the interface is to output information with a valid request, if the server side has caught an error, then the error information should be displayed on the screen. Such situations are not uncommon, exceptions can be either due to a non-existent file or user, or due to breakdowns on the server. The main thing is to handle these errors correctly so that the program does not crash, for this it is necessary to anticipate which exceptions may occur in a given situation.
+\subsection{Testing and error handling}
+
+The React framework is responsible for the interface \cite{Greg Lim}. This is one of the most popular libraries for the JavaScript programming language, it creates dynamic interfaces, besides it does not require much knowledge in development. The task of the interface is to output information with a valid request, if the server side has caught an error, then the error information should be displayed on the screen. Such situations are not uncommon, exceptions can be either due to a non-existent file or user, or due to breakdowns on the server. The main thing is to handle these errors correctly so that the program does not crash, for this it is necessary to anticipate which exceptions may occur in a given situation.
 
 Thorough testing of all aspects of the program is the key to the stability of the entire system. There are several testing options, for example, for testing and deploying smart contracts, it is proposed to use the Truffle framework, this library has integration with the local Ganache blockchain environment. Simply put, this is a personal local blockchain for testing, with which you can track the transaction of a smart contract. When the server starts, the transaction is saved in a block. Figure \ref{GanacheB} shows the Ganache interface, which displays the user's saved address and balance.
 
@@ -292,6 +300,8 @@ Thorough testing of all aspects of the program is the key to the stability of th
 \section{Conclusions }
 In this paper, a decentralized method of storing information in the educational field is considered. The process of implementing distributed networks in Government Institutions is described. DBMS and their differences from IPFS are also considered in detail. Dapp, smart contract, user interface have been developed and all interactions with third-party frameworks have been configured. The application has been tested and has no internal errors.
 
+With the advent of IPFS, information has become available to the whole world, which in turn makes it possible to receive information from anywhere in the world, which has a positive effect on the training of new specialists. In addition to extensive and accessible search for any information, distributed networks ensure reliable operation and data storage security.   Based on the above analysis and development, it is safe to say that decentralized technologies can significantly simplify human life, as well as open up new horizons in the world of web3.
+
 \begin{thebibliography}{00}
 
 \bibitem{GOST53114} GOST R. 53114–2008 information Protection //Ensuring information security in the organization. Basic terms and definitions. URL: http://docs. cntd. ru/document/1200075565 (accessed: 02.12. 2019)(in Russian). – 2009.
@@ -302,17 +312,17 @@ In this paper, a decentralized method of storing information in the educational 
 
 \bibitem{Web3Browsers} Web3 Browsers for Decentralized Storage. IPFS Blog and News. https://blog.ipfs.tech/2022-01-07-web3-browsers-for-decentralized-storage
 \bibitem{Kube} Kube N. Daniel Drescher: Blockchain basics: a non-technical introduction in 25 steps: Apress, 2017, 255 pp, ISBN: 978-1-4842-2603-2. – 2018.
-\bibitem{b5} Bashir I. Mastering Blockchain: Deeper insights into decentralization, cryptography, Bitcoin, and popular Blockchain frameworks. – Packt Publishing Limited, 2017.
-\bibitem{b6} Ruan P. et al. Blockchains: Decentralized and Verifiable Data Systems. – Springer Nature, 2022.
-\bibitem{b7} Gillenson M. L. Fundamentals of database management systems. – John Wiley and Sons, 2023.
-\bibitem{b8} Infante R. Building Ethereum Dapps: decentralized applications on the Ethereum blockchain. – Simon and Schuster, 2019.
-\bibitem{b9} Lin Iuon-Chang et al. "Symmetry in Blockchain-Powered Secure Decentralized Data Storage: Mitigating Risks and Ensuring Confidentiality" (Symmetry, 2024, Vol. 16, No. 2, Article 147) 
-\bibitem{b10} Frolov A.V. Creation of Solidity smart contracts for the Ethereum blockchain //AV Frolov—"LitRes", 2019.-240 p. – 2019.
-\bibitem{b11} Khan Nabeel et al. "Proposed Model for Secured Data Storage in Decentralized Cloud by Block-chain Ethereum" (Electronics, 2022, Vol. 11, No. 22, Article 3686)  
-\bibitem{b12} Talapina E. V. The use of blockchain in public administration: prospects for legal regulation //Issues of state and municipal management. - 2020. – No. 3. – pp. 96-113
-\bibitem{b13} Herron D. Node. js Web Development: Server-side web development made easy with Node 14 using practical examples. – Packt Publishing Ltd, 2020.
-\bibitem{b14} Beginning Ethereum and Solidity with React: Complete Guide to becoming a Blockchain Developer Paperback – 7 Jun. 2018 by Greg Lim (Author)
-\bibitem{b15} Zheng Zhang, Xiaolian Recovery: A replication protocol using an erasure code in a peer-to-peer storage network. Proceedings of the 21st IEEE Symposium. Reliable Distributed Systems, 2002, pp. 330-335.
+\bibitem{Bashir} Bashir I. Mastering Blockchain: Deeper insights into decentralization, cryptography, Bitcoin, and popular Blockchain frameworks. – Packt Publishing Limited, 2017.
+\bibitem{Talapina} Talapina E. V. The use of blockchain in public administration: prospects for legal regulation //Issues of state and municipal management. - 2020. – No. 3. – pp. 96-113
+\bibitem{Ruan} Ruan P. et al. Blockchains: Decentralized and Verifiable Data Systems. – Springer Nature, 2022.
+\bibitem{Gillenson} Gillenson M. L. Fundamentals of database management systems. – John Wiley and Sons, 2023.
+\bibitem{Infante} Infante R. Building Ethereum Dapps: decentralized applications on the Ethereum blockchain. – Simon and Schuster, 2019.
+\bibitem{Lin} Lin Iuon-Chang et al. "Symmetry in Blockchain-Powered Secure Decentralized Data Storage: Mitigating Risks and Ensuring Confidentiality" (Symmetry, 2024, Vol. 16, No. 2, Article 147) 
+\bibitem{Frolov} Frolov A.V. Creation of Solidity smart contracts for the Ethereum blockchain //AV Frolov—"LitRes", 2019.-240 p. – 2019.
+\bibitem{Khan Nabeel} Khan Nabeel et al. "Proposed Model for Secured Data Storage in Decentralized Cloud by Block-chain Ethereum" (Electronics, 2022, Vol. 11, No. 22, Article 3686)  
+\bibitem{Herron} Herron D. Node. js Web Development: Server-side web development made easy with Node 14 using practical examples. – Packt Publishing Ltd, 2020.
+\bibitem{Greg Lim} Beginning Ethereum and Solidity with React: Complete Guide to becoming a Blockchain Developer Paperback – 7 Jun. 2018 by Greg Lim (Author)
+
 
 \end{thebibliography}
 
